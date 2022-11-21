@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.inline {
+    text-decoration: line-through;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Aboreto', cursive;
+}
+
+.amogus {
+    background-image: url(/GALLERY/amogus.png);
+    background-size: 20%;
+    background-position: center 160px;
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    width: 100%; height: 80px;
+    margin-bottom: -200px;
+    font-family: 'Nova Cut', cursive;
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 30px;
+    background-color: black;
+}
+
+.content {
+    width: 60%;
+    height: 800px;
+    background-color: #222;
+    margin: auto;
+}
+
+.content-input-text {
+    transition: 0.2s;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    resize: none;
+    text-align: center;
+    background-color: #333;
+    color: lightgray;
+    border: none;
+    float: left;
+    margin: 50px 100px;
+    font-family: 'Aboreto', cursive;
+    line-height: 200px;
+}
+
+.content-input-text:focus {
+    outline: none;
+    background-color: #121212;
+    color: white;
+} 
+
+.content-input-text::placeholder, .content-output-text {
+    font-size: 20px;
+    line-height: 200px;
+    color: #888
+}
+
+.content-output-text {
+    overflow: hidden;
+    word-wrap: normal;
+    width: 300px; height: 200px;
+    background-color: #333;
+    float: right;
+    font-size: 20px;
+    line-height: 200px;
+    text-align: center;
+    margin: 50px 100px;
+
+}
+
+#arrow {
+    font-size: 100px;
+    position: absolute;
+    transform:translate(100px, 100px);
+    left: calc(50% - 130px);
+    color: #333;
+}
+
+.content-input-title {
+    font-size: 30px;
+    transform: translate(-283px, 250px);
+}
+
+.content-output-title {
+    font-size: 30px;
+    float: right;
+    transform: translate(310px, 215px);
+}
+
+.content-form {
+    margin: 300px auto 0 auto;
+    width: 80%; height: 300px;
+}
+
+.content-form-label {
+    float: left;
+    width: 48%;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.content-form-input {
+    width: 48%;
+    float: right;
+    margin-top: 50px;
+} 
+
+.table-font, .table-line, .table-others {
+    margin-top: 30px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+hr {
+    width: 70%;
+    font-size: 5px;
+    margin: auto;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+td {
+    padding: 15px 0;
+    font-size: 18px;
+    color: #888;
+}
+
+input:focus, select:focus {
+    outline: none;
+    background-color: #121212;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #121212;
+}
+
+input[type="checkbox"]:checked:after {
+    background-color: black;
+}
+
+input, select {
+    transition: 0.2s;
+    width: 90px;
+    border: none;
+    text-align: center;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+input[type=checkbox] {
+    height: 35px;
+}
+
+.footer {
+    width: 100%; height: 200px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer-title {
+    font-family: 'Nova Cut', cursive;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #222;
+    padding-top: 20px;
+}

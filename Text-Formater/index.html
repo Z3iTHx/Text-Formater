@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT FORMATER</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    
+    <nav class="navigation">
+        <p class="navigation-title">TEXT FORMATER</p>
+    </nav>
+
+    <section class="content">
+        <textarea class="content-input-text" placeholder="type something..."></textarea>
+        <section class="content-output-text">RESULT...</section>
+        <span id="arrow">&#9655</span>
+
+        <section class="content-form">
+            <table class="table-font">
+                <th colspan="2">
+                    FONT <hr>
+                </th>
+                <tr>
+                    <td>
+                        COLOR:
+                    </td>
+                    <td>
+                        <input type="color" value="#FFFFFF" name="form" id="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        SIZE:
+                    </td>
+                    <td>
+                        <input type="number" name="form" value="18" id="size" min="1" max="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        FONT:
+                    </td>
+                    <td>
+                        <select name="form" id="font">
+                            <option value="Default">Default</option>
+                            <option value="Arial">Arial</option>
+                            <option value="TimesNewRoman">Times New Roman</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="table-line">
+                <th colspan="2">
+                    LINE <hr>
+                </th>
+                <tr>
+                    <td>
+                        OVERLINE:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="form" id="overline">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        INLINE:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="form" id="inline">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        UNDERLINE:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="form" id="underline">
+                    </td>
+                </tr>
+            </table>
+
+            <table class="table-others">
+                <th colspan="2">
+                    OTHER <hr>
+                </th>
+                <tr>
+                    <td>
+                        LETTER SPACING:
+                    </td>
+                    <td>
+                        <input type="number" name="form" id="spacing" value="1" min="1" max="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        AMOGUS?
+                    </td>
+                    <td>
+                        <input type="checkbox" name="amogus" id="amogus">
+                    </td>
+                </tr>
+            </table>
+
+        
+        </section>
+    </section>
+
+    <script src="/JS/script.js"></script>
+
+    <footer class="footer">
+        <p class="footer-title">
+            FILIP SAMÓL
+        </p>
+        <p class="footer-text">
+
+        </p>
+    </footer>
+
+</body>
+</html>
